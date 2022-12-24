@@ -1,0 +1,405 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even Matrix_2_Header1
+U 1 1 608BBFDB
+P 7750 4450
+F 0 "Matrix_2_Header1" H 7800 5067 50  0000 C CNN
+F 1 "2x10" H 7800 4976 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 7750 4450 50  0001 C CNN
+F 3 "~" H 7750 4450 50  0001 C CNN
+	1    7750 4450
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even Matrix_1_Header1
+U 1 1 608BE649
+P 3250 3050
+F 0 "Matrix_1_Header1" H 3300 3667 50  0000 C CNN
+F 1 "2x10" H 3300 3576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 3250 3050 50  0001 C CNN
+F 3 "~" H 3250 3050 50  0001 C CNN
+	1    3250 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3450 3650 3450
+Wire Wire Line
+	3650 3450 3650 3700
+Wire Wire Line
+	3650 3700 2900 3700
+Wire Wire Line
+	2900 3700 2900 2650
+Wire Wire Line
+	2900 2650 3050 2650
+Wire Wire Line
+	4850 3550 3700 3550
+Wire Wire Line
+	3700 3550 3700 3750
+Wire Wire Line
+	2850 3750 2850 2750
+Wire Wire Line
+	2850 2750 3050 2750
+Wire Wire Line
+	4850 3650 3750 3650
+Wire Wire Line
+	3750 3650 3750 3800
+Wire Wire Line
+	3750 3800 2800 3800
+Wire Wire Line
+	2800 3800 2800 2850
+Wire Wire Line
+	2800 2850 3050 2850
+Wire Wire Line
+	2750 3850 2750 2950
+Wire Wire Line
+	2750 2950 3050 2950
+Wire Wire Line
+	3050 3050 2700 3050
+Wire Wire Line
+	2700 3050 2700 3950
+Wire Wire Line
+	3050 3150 2650 3150
+Wire Wire Line
+	2650 3150 2650 4050
+Wire Wire Line
+	2650 4050 4850 4050
+Wire Wire Line
+	2700 3950 4850 3950
+Wire Wire Line
+	4850 3850 2750 3850
+Wire Wire Line
+	3700 3750 2850 3750
+$Comp
+L teensy:Teensy4.1 Brain1
+U 1 1 608B2E9D
+P 5950 4500
+F 0 "Brain1" H 5950 7065 50  0000 C CNN
+F 1 "Teensy4.1" H 5950 6974 50  0000 C CNN
+F 2 "teensy:Teensy41_outer" H 5550 4900 50  0001 C CNN
+F 3 "" H 5550 4900 50  0001 C CNN
+	1    5950 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4150 2600 4150
+Wire Wire Line
+	2600 4150 2600 3250
+Wire Wire Line
+	2600 3250 3050 3250
+Wire Wire Line
+	4850 4250 2550 4250
+Wire Wire Line
+	2550 4250 2550 3350
+Wire Wire Line
+	2550 3350 3050 3350
+Wire Wire Line
+	4850 4350 2500 4350
+Wire Wire Line
+	2500 4350 2500 3450
+Wire Wire Line
+	2500 3450 3050 3450
+Wire Wire Line
+	4850 4450 2450 4450
+Wire Wire Line
+	2450 4450 2450 3550
+Wire Wire Line
+	2450 3550 3050 3550
+Wire Wire Line
+	7050 4650 7550 4650
+Wire Wire Line
+	7550 4550 7050 4550
+Wire Wire Line
+	7050 4450 7550 4450
+Wire Wire Line
+	7550 4350 7050 4350
+Wire Wire Line
+	7050 4250 7550 4250
+Wire Wire Line
+	7550 4150 7050 4150
+Wire Wire Line
+	7050 4050 7550 4050
+Wire Wire Line
+	7550 3950 7050 3950
+Wire Wire Line
+	7550 4750 7200 4750
+Wire Wire Line
+	7200 4750 7200 5900
+Wire Wire Line
+	7200 5900 4700 5900
+Wire Wire Line
+	4700 5900 4700 4650
+Wire Wire Line
+	4700 4650 4850 4650
+Wire Wire Line
+	7300 6000 7300 4850
+Wire Wire Line
+	7300 4850 7550 4850
+Wire Wire Line
+	7300 6000 4600 6000
+Wire Wire Line
+	4600 6000 4600 4550
+Wire Wire Line
+	4600 4550 4850 4550
+Wire Wire Line
+	3550 2650 4400 2650
+Wire Wire Line
+	4850 2950 4550 2950
+Wire Wire Line
+	3550 3050 4600 3050
+Wire Wire Line
+	4850 3150 4650 3150
+Wire Wire Line
+	3550 3250 4700 3250
+Wire Wire Line
+	4850 3350 4750 3350
+Wire Wire Line
+	8050 3950 8150 3950
+Wire Wire Line
+	8150 3950 8150 3850
+Wire Wire Line
+	8150 3850 7050 3850
+Wire Wire Line
+	8050 4050 8200 4050
+Wire Wire Line
+	8200 4050 8200 3550
+Wire Wire Line
+	8200 3550 7050 3550
+Wire Wire Line
+	8050 4150 8250 4150
+Wire Wire Line
+	8250 4150 8250 1850
+Wire Wire Line
+	8250 1850 4750 1850
+Wire Wire Line
+	4750 1850 4750 3350
+Connection ~ 4750 3350
+Wire Wire Line
+	4750 3350 3550 3350
+Wire Wire Line
+	4700 3250 4700 1800
+Wire Wire Line
+	4700 1800 8300 1800
+Wire Wire Line
+	8300 1800 8300 4250
+Wire Wire Line
+	8300 4250 8050 4250
+Connection ~ 4700 3250
+Wire Wire Line
+	4700 3250 4850 3250
+Wire Wire Line
+	4650 3150 4650 1750
+Wire Wire Line
+	4650 1750 8350 1750
+Wire Wire Line
+	8350 1750 8350 4350
+Wire Wire Line
+	8350 4350 8050 4350
+Connection ~ 4650 3150
+Wire Wire Line
+	4650 3150 3550 3150
+Wire Wire Line
+	8050 4450 8400 4450
+Wire Wire Line
+	8400 4450 8400 1700
+Wire Wire Line
+	8400 1700 4600 1700
+Wire Wire Line
+	4600 1700 4600 3050
+Connection ~ 4600 3050
+Wire Wire Line
+	4600 3050 4850 3050
+Wire Wire Line
+	4550 2950 4550 1650
+Wire Wire Line
+	4550 1650 8450 1650
+Wire Wire Line
+	8450 1650 8450 4550
+Wire Wire Line
+	8450 4550 8050 4550
+Connection ~ 4550 2950
+Wire Wire Line
+	4550 2950 3550 2950
+Wire Wire Line
+	4850 2750 4450 2750
+Wire Wire Line
+	3550 2850 4500 2850
+Wire Wire Line
+	8050 4650 8500 4650
+Wire Wire Line
+	8500 4650 8500 1600
+Wire Wire Line
+	8500 1600 4500 1600
+Wire Wire Line
+	4500 1600 4500 2850
+Connection ~ 4500 2850
+Wire Wire Line
+	4500 2850 4850 2850
+Wire Wire Line
+	4450 2750 4450 1550
+Wire Wire Line
+	4450 1550 8550 1550
+Wire Wire Line
+	8550 1550 8550 4750
+Wire Wire Line
+	8550 4750 8050 4750
+Connection ~ 4450 2750
+Wire Wire Line
+	4450 2750 3550 2750
+Wire Wire Line
+	4400 2650 4400 1500
+Wire Wire Line
+	4400 1500 8600 1500
+Wire Wire Line
+	8600 1500 8600 4850
+Wire Wire Line
+	8600 4850 8050 4850
+Connection ~ 4400 2650
+Wire Wire Line
+	4400 2650 4850 2650
+$Comp
+L Device:R_Small_US R2
+U 1 1 60A64367
+P 3300 2250
+F 0 "R2" V 3095 2250 50  0000 C CNN
+F 1 "47 Ohms" V 3186 2250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P25.40mm_Horizontal" H 3300 2250 50  0001 C CNN
+F 3 "~" H 3300 2250 50  0001 C CNN
+	1    3300 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 60A65314
+P 3300 1750
+F 0 "R1" V 3095 1750 50  0000 C CNN
+F 1 "47 Ohms" V 3186 1750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P25.40mm_Horizontal" H 3300 1750 50  0001 C CNN
+F 3 "~" H 3300 1750 50  0001 C CNN
+	1    3300 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 2250 3900 2250
+Wire Wire Line
+	3900 2250 3900 3750
+Wire Wire Line
+	3900 3750 4850 3750
+Wire Wire Line
+	4250 1950 4250 2350
+Wire Wire Line
+	4250 2350 4850 2350
+Wire Wire Line
+	3400 1750 4100 1750
+Wire Wire Line
+	4100 1750 4100 2550
+Wire Wire Line
+	4100 2550 4850 2550
+NoConn ~ 5650 5800
+NoConn ~ 5800 5800
+NoConn ~ 5950 5800
+NoConn ~ 6100 5800
+NoConn ~ 6250 5800
+NoConn ~ 4850 4850
+NoConn ~ 4850 4950
+NoConn ~ 4850 5100
+NoConn ~ 4850 5200
+NoConn ~ 4850 5300
+NoConn ~ 4850 5400
+NoConn ~ 4850 5500
+NoConn ~ 7050 4900
+NoConn ~ 7050 5000
+NoConn ~ 7050 5100
+NoConn ~ 7050 5200
+NoConn ~ 7050 5300
+NoConn ~ 7050 5400
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even Expansion_Header1
+U 1 1 608BACC3
+P 7450 2950
+F 0 "Expansion_Header1" H 7500 3567 50  0000 C CNN
+F 1 "2x10" H 7500 3476 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 7450 2950 50  0001 C CNN
+F 3 "~" H 7450 2950 50  0001 C CNN
+	1    7450 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3450 7250 3450
+Wire Wire Line
+	7250 3350 7050 3350
+Wire Wire Line
+	7050 3250 7250 3250
+Wire Wire Line
+	7250 3050 7050 3050
+Wire Wire Line
+	7050 3150 7250 3150
+Wire Wire Line
+	7250 2950 7050 2950
+Wire Wire Line
+	7050 2850 7250 2850
+Wire Wire Line
+	7050 2750 7250 2750
+Wire Wire Line
+	7050 2650 7250 2650
+Wire Wire Line
+	7050 2550 7250 2550
+Wire Wire Line
+	7050 3650 7750 3650
+Wire Wire Line
+	7750 3650 7750 3450
+Wire Wire Line
+	7050 3750 7800 3750
+Wire Wire Line
+	7800 3750 7800 3350
+Wire Wire Line
+	7800 3350 7750 3350
+Wire Wire Line
+	7050 2450 7750 2450
+Wire Wire Line
+	7750 2450 7750 2550
+Wire Wire Line
+	7050 2350 7800 2350
+Wire Wire Line
+	7800 2350 7800 2650
+Wire Wire Line
+	7800 2650 7750 2650
+Wire Wire Line
+	4850 2450 4800 2450
+Wire Wire Line
+	4800 2450 4800 1900
+Wire Wire Line
+	4800 1900 7850 1900
+Wire Wire Line
+	7850 1900 7850 2750
+Wire Wire Line
+	7850 2750 7750 2750
+Text Label 1850 1850 0    50   ~ 0
+Shield
+Wire Wire Line
+	1850 1650 1850 1850
+$Comp
+L Connector:DIN-5_180degree MIDI_out1
+U 1 1 60A1CF58
+P 1850 1350
+F 0 "MIDI_out1" H 1850 983 50  0000 C CNN
+F 1 "DIN-5" H 1850 1074 50  0000 C CNN
+F 2 "Eurocad:MIDI_DIN5" H 1850 1350 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 1850 1350 50  0001 C CNN
+	1    1850 1350
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
